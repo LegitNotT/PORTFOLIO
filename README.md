@@ -48,6 +48,7 @@
     </div>
 </section>
 
+# CSS
   
   <section id="contact">
     <h2>Contact Me</h2>
@@ -70,3 +71,46 @@
   </footer>
 </body>
 </html>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4169e1;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #4169e1;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
